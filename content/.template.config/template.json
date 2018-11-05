@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Aldo Oliveira",
+  "classifications": [
+    "Worker",
+    "Console",
+    "Oracle",
+    "Windows Service"
+  ],
+  "name": "Worker Oracle Template",
+  "identity": "WorkerOracleTemplate",
+  "shortName": "workeroracle",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "WorkerOracleTemplate",
+  "symbols": {
+    "Title": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "WorkerOracle",
+      "replaces": "PROJECT-TITLE",
+      "description": "The name of the project which determines the assembly product name."
+    },
+    "Description": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "Worker with Oracle Connection, Tcp Logger and Dependency Injection",
+      "replaces": "PROJECT-DESCRIPTION",
+      "description": "A description of the project which determines the assembly description."
+    },
+    "Author": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "Project Author",
+      "replaces": "PROJECT-AUTHOR",
+      "description": "The name of the author of the project which determines the assembly author, company and copyright information."
+    }
+  }
+}
