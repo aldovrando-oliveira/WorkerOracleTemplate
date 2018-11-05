@@ -1,3 +1,5 @@
+[![NuGet](https://img.shields.io/nuget/v/WorkerOracleTemplate.svg)](https://www.nuget.org/packages/WorkerOracleTemplate/)
+
 # WorkerOracleTemplate
 Template for use with the the .NET CLI's dotnet new functionality
 
