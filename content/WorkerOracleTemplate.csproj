@@ -12,6 +12,7 @@
     <Product>PROJECT-TITLE</Product>
     <Description>PROJECT-DESCRIPTION</Description>
     <Copyright>Copyright © PROJECT-AUTHOR. All rights Reserved</Copyright>  
+    <NuspecFile>../WorkerOracleTemplate.nuspec</NuspecFile>
   </PropertyGroup>
   
   <ItemGroup>
