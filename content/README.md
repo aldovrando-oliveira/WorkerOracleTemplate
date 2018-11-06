@@ -4,7 +4,7 @@ PROJECT-DESCRIPTION
 
 ## Sumário
 
-- [Configurações](#markdown-header-configuracoes)  
+- [Configurações](#configuracoes)  
   - [Worker](#worker)  
   - [Banco de Dados](#banco-de-dados)  
   - [Logger](#logger)
@@ -81,4 +81,4 @@ dotnet {nome_aplicacao}.dll
 ```
 dotnet {nome_aplicacao}.dll action:install
 ```  
-> Esse comando tem efeito somente em ambientes windows, em outros ambientes a aplicação será executada como console. Mais informações sobre a instalação e configuração do serviço windows podem ser incontradas [aqui](https://github.com/PeterKottas/DotNetCore.WindowsService).
+> Esse comando tem efeito somente em ambientes windows, em outros ambientes a aplicação será executada como console. Mais informações sobre a instalação e configuração do serviço windows podem ser encontradas [aqui](https://github.com/PeterKottas/DotNetCore.WindowsService).
